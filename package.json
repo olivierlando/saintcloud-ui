@@ -9,7 +9,7 @@
     "react-dom": "^16.2.0",
     "react-google-login": "^3.0.2",
     "react-scripts": "1.0.17",
-    "saintcloud": "file:./saintcloud-1.1.0-modified.tgz"
+    "saintcloud": "git+https://github.com/olivierlando/saintcloud.git#0c0cd7de2e696e3dc6eabb7092149a76410fda02"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -41,7 +41,7 @@ export default class ProjectsList extends Component {
                                         <td>
                                         <input 
                                             type="checkbox"
-                                            checked={this.props.selectedVersions.indexOf(version.name) != -1}
+                                            checked={this.props.selectedVersions.indexOf(version.name) !== -1}
                                             disabled={!!version.instances}
                                             onChange={() => this.handleSelectionChange(version.name)} />
                                         </td>

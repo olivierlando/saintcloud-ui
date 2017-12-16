@@ -5,7 +5,6 @@ import saintcloud from 'saintcloud';
 import { GoogleLogin } from 'react-google-login';
 import google from 'googleapis';
 import ProjectsList from './components/ProjectsList';
-const OAuth2 = google.auth.OAuth2;
 
 export default class App extends Component {
   constructor() {
